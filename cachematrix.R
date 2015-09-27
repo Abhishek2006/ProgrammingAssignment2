@@ -1,4 +1,4 @@
-## The follwoing pair of functions create a matrix and 
+## The following pair of functions create a matrix and 
 ## cache its inverse
 
 ## the below function creates a special matrix object that can cache its inverse
