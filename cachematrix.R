@@ -1,9 +1,15 @@
+<<<<<<< HEAD
 ## The following pair of functions create a matrix and 
 ## cache its inverse
+=======
+## Put comments here that give an overall description of what your
+## functions do
+>>>>>>> parent of cc7acc2... first commit
 
-## the below function creates a special matrix object that can cache its inverse
+## Write a short comment describing this function
 
 makeCacheMatrix <- function(x = matrix()) {
+<<<<<<< HEAD
   # set the value of inverse to null 
   mat_inverse <- NULL
   # create matrix and sets the value
@@ -22,13 +28,16 @@ makeCacheMatrix <- function(x = matrix()) {
     set_matrix = set_matrix, get_matrix = get_matrix, 
     set_inverse = set_inverse, get_inverse = get_inverse
     )
+=======
+
+>>>>>>> parent of cc7acc2... first commit
 }
 
 
-## The below function computes the inverse of matrix. If the inverse is already
-## calculated the function retrieves the inverse from the cache
+## Write a short comment describing this function
 
 cacheSolve <- function(x, ...) {
+<<<<<<< HEAD
   ## Return a matrix that is the inverse of 'x'
   
   IM <- x$get_inverse()
@@ -45,3 +54,7 @@ cacheSolve <- function(x, ...) {
   return(result_inverse)
 }  
 
+=======
+        ## Return a matrix that is the inverse of 'x'
+}
+>>>>>>> parent of cc7acc2... first commit
